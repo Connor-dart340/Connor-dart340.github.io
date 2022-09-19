@@ -1,19 +1,32 @@
-
+body{ background-color: lightgray}
         
 H1{
-        Color: #15CE90;
-        background: white;
+        Color: ;
+        align-content: center;
+        text-align: center;
         
 }
 h2{
-    Color:red;
+    Color: Black;
+    text-align: center;}
+
+
+
+h3 {color:dimgrey;
+    text-align: left;}
     
-}
-ul {
+h4 {color: dimgray;
+    text-align: left;}
+
+     
+
+.Navbar {
     list-style: none;
     background-color: grey;
     margin: 0px;
     padding: 20px;
+    text-align: center;
+    
     
 }
         
@@ -27,13 +40,14 @@ ul li{
 ul li a{
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 100px;
+    text-decoration: none;
     text-decoration: none;
 }
 ul li a:hover {
-        background-color: red;
+        background-color: darkgray;
         color:white;
-        padding: 22px;
+        padding: 22px 110px;
         
 }
 
@@ -43,22 +57,20 @@ ul li a:hover {
         
     }
 .ImgGallary td{
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 p{
     margin: auto;
     padding: 30px;
-    text-align: center;
+    text-align: left;
+    width: 700px;
 }
 P em{
-    color: crimson
-}
-ul1{ 
-    float: left;
-    margin 20px;
-    padding: 20px}
+    color: crimson;}
+ 
+   
 
-ol{float:right;
-    
-}
+ol {text-align: left;
+   }
+ol li{ text-align: left;}
